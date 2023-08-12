@@ -1,2 +1,2 @@
 # HTML-CSS-Elements
-Saving The Learning Of HTML & CSS Here
+Saving The Learnings Of HTML & CSS Here
