@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Semantic Tags</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        
+        <!-- NOTE:Section tags were introduced in HTML5  -->
+        <!-- Previously aside tag's alternative was table tag -->
+
+        
+
+        <!-- header section started -->
+        <header>
+                <!--header heading started -->
+                <h1>
+                        Semantic Tags Blog
+                </h1>
+                <!-- header heading ended -->
+
+                <!-- navigation started in header -->
+                <nav>
+                        <a href="Home.html">Home</a>|
+                        <a href="Features.html">Features</a>|
+                        <a href="Courses.html">Courses</a>|
+                        <a href="About.html">About</a>|
+                        <a href="Contact.html">Contact</a>
+                </nav>
+                <!-- navigation ended -->
+        </header>
+        <!-- header ended here -->
+
+
+        <!-- section tag started -->
+        <section>
+                <!-- section heading -->
+                <h2>
+                        Section tag heading
+                </h2>
+                <!-- section heading ended -->
+                <!-- section para started -->
+                <p>
+                        This tag is used to split a page into sections like Introduction, Contact Information, Details,
+                        etc and each of these sections can be in a different section tag. The section tag is introduced
+                        to wrap-up the
+                        things in a particular section. The section tag divides the content into sections and
+                        subsections. The
+                        section tag is used when requirements of two headers or footers or any other section of
+                        documents needed. Section tag grouped the generic block of related content. You can write
+                        section tag under div tag also.
+                <ul>
+                        <li>A section can have nested sections</li>
+                        <li>Note: Placing article tag inside of section tag is good practice, like section basically
+                                defines the types and the articles will contain the specific contents in
+                                that type of section. </li>
+                </ul>
+                </p>
+                <!-- section para ended -->
+        </section>
+        <!-- section tag ended -->
+
+        <!-- article tag started -->
+        <article>
+                <!-- article heading -->
+                <h3>
+                        Article tag heading
+                </h3>
+                <!-- article heading ended -->
+                <!-- article para started -->
+                <p>
+                        This tag contains independent content that doesn’t require any other
+                        context. So the
+                        article tag can be placed inside the main content. But each
+                        of the articles will
+                        contain independent content within it. Like YouTube use to contain
+                        different kinds of videos on a single page, each
+                        video is independent. You can write article tag under div tag also.
+                <ul>
+                        <li>An article can have nested articles and that should refer to parent article.</li>
+                        <li>Article tags are perfect for Micro data information.</li>
+                </ul>
+                </p>
+                <p>
+                        <strong>Choose one over another:</strong>
+                <ol>
+                        <li>
+                                section tag: When you just want to decorate any content in your page i.e. you want to
+                                add some functions then you can use section tag, also that can be replaced by
+                                the div tag. The section tag will be good when the content of any web
+                                page is appropriate for the contents outline and browsers does
+                                not give any attention to the outlines.
+                        </li>
+                        <li>
+                                article tag: The article tag is a self-completed tag, this can be used for any of
+                                those reasons, where section tag is required plus the article tag
+                                place the content independently. Article tag can be used
+                                to place any social post, magazine article, blogs, list
+                                of related contents, any independent content.
+                        </li>
+                        <li>
+                                If your content material contains the date, price, author, description, etc then go for
+                                the article tag. Basically use an article tag to contain content that could be shared
+                                and obviously for actual articles. Wrap your blog posts in them.
+                        </li>
+                        <li>
+                                If your content contains any kind of procedure to make or create something that will
+                                depend on something then go for the section tag like a div, when it describes what your
+                                document outline would include.
+                        </li>
+                </ol>
+                </p>
+                <!-- article para ended -->
+
+        </article>
+        <!-- article tag ended -->
+
+        <!-- aside tag started -->
+        <aside>
+                <h4>Aside Tag</h4>
+                The aside content is often placed as a sidebar in a document.Note: The aside tag is new in HTML5. This
+                tag does not render anything special in a browser i.e. it will not display anything special in the
+                webpage automatically but you have to use CSS for that.
+        </aside>
+        <!-- aside tag ended -->
+
+
+
+        <!-- Now to write some important info from GFG,
+        We will illustrate the differences between section
+        and article using section and article tag itself in the code: -->
+
+        <div class="compare">
+                <div class="section">
+                        <section>
+                                <h3><strong>Section Tag</strong></h3>
+                                <p>
+                                <ol>
+                                        <li>The section tag defines a section in a document.</li>
+                                        <li>The section tag supports Global attributes</li>
+                                        <li>The section tag supports Event attributes.</li>
+                                        <li>The section tag represents the generic section of the document or
+                                                application.
+                                        </li>
+                                        <li>The section tag is the only block of related content.</li>
+                                        <li>
+                                                section tag is supported by following browsers -:
+
+                                                Chrome(5.0), Microsoft Edge(9.0), Firefox(4.0) , Safari (5.0) ,
+                                                Opera
+                                                Mini (11.5)
+                                        </li>
+                                </ol>
+                                </p>
+                        </section>
+                </div>
+
+
+
+                <div class="article">
+                        <h3><strong>Article Tag</strong></h3>
+                        <p>
+                        <ol>
+                                <li>The article tag specifies independent, self-contained content.</li>
+                                <li>It supports Event attributes</li>
+                                <li>It supports Global attributes</li>
+                                <li>The article Tag represents a complete, composition in the document, page,
+                                        application, or
+                                        site.</li>
+                                <li>The article tag is a special type of section</li>
+                                <li>It is supported by following browsers -:
+
+                                        Chrome(6.0) , Microsoft Edge(9.0), Firefox(4.0) , Safari (5.0) , Opera
+                                        Mini
+                                        (11.1)</li>
+                        </ol>
+                        </p>
+                </div>
+        </div>
+
+
+
+
+
+        <!-- footer tag started -->
+        <footer>
+                Made with ❤️ by Dante-249
+        </footer>
+        <!-- footer tag ended -->
+
+</body>
+
+</html>
