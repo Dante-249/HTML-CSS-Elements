@@ -1,1 +1,33 @@
-
+*{
+        margin: 0;
+        padding: 0;
+        /* The shortcut for above is [m0+p0+PressEnter] */
+}
+header{
+        height: 100px;
+        width: auto;
+        text-align: center;
+        font-family: 'Times New Roman';
+        margin: 0;
+        padding: 20px;
+        background-color: rgb(8, 255, 255);
+        border: 2px;
+        border: 5px solid greenyellow;
+}
+.para{
+        text-align: justify;
+        font-family: Verdana;
+        background: rgb(81, 255, 0);
+        margin: 20px;
+        padding: 40px;
+}
+.para2{
+        font-family: 'Lucida Sans';
+        text-align: justify;
+        background: #c8ff00e2;
+        margin: 20px;
+        padding: 40px;
+        /* The following is the syntax to set the border */
+        border: 7px solid black;
+       
+}
