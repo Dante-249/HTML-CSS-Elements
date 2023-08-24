@@ -1,2 +1,13 @@
-
-
+*{
+        margin: 0;
+        padding: 0;
+        /* The shortcut for above is [m0+p0+PressEnter] */
+}
+.header{
+        text-align: center;
+        font-family: 'Times New Roman';
+}
+.para{
+        text-align: justify;
+        font-family: Verdana;
+}
