@@ -1,1 +1,51 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+h1{
+        text-decoration:underline;
+        text-align: center;
+        background: #6ad89fb9;
+}
+.para1{
+        background: #18b94e;
+        /* We prefer inline-block over merely 'inline' or merely 'block' bcz we can not manipulate height and width in both of them */
+        display: inline-block;
+        height: 600px;
+        width: 500px;
+}
+.para2{
+        background: #4ece27;
+        display: inline-block;
+        height: 600px;
+        width: 500px;
+}
+.para3{
+        background: #4ece27;
+        display: inline-block;
+        height: 600px;
+        width: 500px;
+}
+.para4{
+        background-color: #18b94e;
+        margin: 20px;
+        padding: 20px;
+        border: 20px solid rgba(100, 59, 59, 0.658);
+        text-transform: uppercase;
+}
 
+.para5{
+        background-color: #18b94e;
+        margin: 20px;
+        padding: 40px;
+        border: 20px solid rgba(28, 224, 245, 0.774);
+        /* It will capitalize the first letter of every word */
+        text-transform: capitalize;
+        height: auto;
+        width: auto;
+}
+.para6{
+        background-color: #4ece27;
+        /* It improves the spacing  between lines */
+        line-height: 30px;
+}
