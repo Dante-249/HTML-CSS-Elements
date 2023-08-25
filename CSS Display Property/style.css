@@ -48,4 +48,28 @@ h1{
         background-color: #4ece27;
         /* It improves the spacing  between lines */
         line-height: 30px;
+        font-family: Verdana;
+}
+.para7{
+        background-color: burlywood;
+        margin: 5px;
+        padding: 10px;
+        /* Use google fonts for professional websites */
+        font-size: 35px;
+        border: 5px solid black;
+        font-family: 'Balsamiq Sans', cursive;
+}
+.para8{
+        text-align: justify;
+        padding: 20px;
+        border: 20px solid rgb(187, 247, 8);
+        /* Line weight is the thickness of the letters */
+        font-weight: 800;
+        margin: 5px;
+        font-size: 50px;
+        background: #892b2bac;
+}
+.para8 h4{
+        text-align: center;
+        font-family: 'Balsamiq Sans';
 }
