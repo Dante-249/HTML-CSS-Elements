@@ -9,7 +9,9 @@ h1{
 }
 .para1{
         background: #18b94e;
-        /* We prefer inline-block over merely 'inline' or merely 'block' bcz we can not manipulate height and width in both of them */
+         /* We prefer inline-block over merely 'inline' or merely 'block' bcz we can not manipulate height and width in both of them */
+        /* Inline elements take up only that much space that is needed but block level elements take up the whole width and height
+        you can  visualize it using div container and setting a bg color then see it on browser( Firefox is preferred for dev) */
         display: inline-block;
         height: 600px;
         width: 500px;
